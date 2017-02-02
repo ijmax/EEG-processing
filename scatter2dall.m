@@ -44,14 +44,15 @@ figure('units','normalized','outerposition',[0 0 1 1]);
 
 for i = (page-1)*plots+1:maxplot
     % set plot position and the title
-    subplot(5,4,i-(page-1)*plots);
-    title(strcat(num2str(comb(i,1)),' and ',num2str(comb(i,2))));
+    subplot(5,4,i-(page-1)*plots);    
     
     % plot 1st class
     scatter(cls1(:,comb(i,1)),cls1(:,comb(i,2)),'*r');
     hold on;
     % plot 2nd class
     scatter(cls2(:,comb(i,1)),cls2(:,comb(i,2)),'ob');
+    % set title for the plot
+    title(strcat(num2str(comb(i,1)),' and_',num2str(comb(i,2))));
 end
  
 end

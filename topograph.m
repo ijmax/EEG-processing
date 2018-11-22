@@ -37,7 +37,7 @@ function topograph(fname)
         trlen = vertcat(trlen,tpow);
     end
     
-    % Interpote the points
+    % Interpolate the points
     xi=linspace(min(xc),max(xc),30);
     yi=linspace(min(yc),max(yc),30);
 

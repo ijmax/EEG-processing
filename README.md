@@ -44,4 +44,4 @@ Output looks like this.
 ![Topographic plot](topograph.png)
 
 You can find some EDF data in this publication.
-![Person identification from EEG using various machine learning techniques with inter-hemispheric amplitude ratio](https://doi.org/10.1371/journal.pone.0238872)
+[Person identification from EEG using various machine learning techniques with inter-hemispheric amplitude ratio](https://doi.org/10.1371/journal.pone.0238872)

@@ -7,6 +7,7 @@ in the .edf (Europian Data Format) file which is generated
 by EMOTIV EPOC+ headset.
 
 ** You need `edfread()` function installed **
+
 Link: [click here](https://www.mathworks.com/matlabcentral/fileexchange/31900-edfread)
 
 Input: Path to .edf file (ex: <folder_name>/<file>.edf)
@@ -35,7 +36,7 @@ Output: Scatter plots with 20 maximum plots
 ## topograph.m
 
 This function generates a topographic plot for given EDF file.
-** You need `edfread()` function installed **
+** You need `edfread()` function installed. **
 Link: [click here](https://www.mathworks.com/matlabcentral/fileexchange/31900-edfread)
 
 Input: Path to .edf file (ex: <folder_name>/<file>.edf)

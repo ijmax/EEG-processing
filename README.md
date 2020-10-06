@@ -9,6 +9,11 @@ by EMOTIV EPOC+ headset.
 Input: Path to .edf file (ex: <folder_name>/<file>.edf)
 Output: Matrix of 14 channel data (14x<data_length>)      
 
+Code: 
+```matlab
+plotall("1.edf");
+```
+
 Output looks like this.
 ![Plots of all channels](plotall_output.png)
 
@@ -29,6 +34,11 @@ Output: Scatter plots with 20 maximum plots
 This function generates a topographic plot for given EDF file.
 
 Input: Path to .edf file (ex: <folder_name>/<file>.edf)
+
+Code: 
+```matlab
+topograph("1.edf");
+```
 
 Output looks like this.
 ![Topographic plot](topograph.png)

@@ -1,6 +1,6 @@
 # EEG processing
 
-#plotall.m
+## plotall.m
 
 plotall function plots all the channel signals containg 
 in the .edf (Europian Data Format) file which is generated 
@@ -10,7 +10,7 @@ Input: Path of the .edf file (ex: <folder_name>/<file>.edf
 Output: Matrix of 14 channel data (14x<data_length>)      
 
 
-#scatter2dall.m
+## scatter2dall.m
 
 This function generates set of scatter plots of all possible 
 combination of binary feature sets
